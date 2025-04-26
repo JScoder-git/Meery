@@ -5,9 +5,9 @@ export const About=()=>{
         <section className={styles.container} id="about">
             <h2 className={styles.title}>About</h2>
             <div className={styles.content}>
-                <img src="assets/about/laptop sitting.png" alt="Image of me with a laptop" className={styles.aboutImage}></img>
+                <img src="/assets/about/laptop sitting.png" alt="Image of me with a laptop" className={styles.aboutImage}></img>
                 <ul className={styles.aboutitems}>
-                    <li className={styles.aboutitem}><img src="assets/about/cursorIcon.png" alt="cursor icon"></img>
+                    <li className={styles.aboutitem}><img src="/assets/about/cursorIcon.png" alt="cursor icon"></img>
                     <div className={styles.abouitemtext}>
                         <h3>Frontend Developer </h3>
                         <p>
@@ -15,7 +15,7 @@ export const About=()=>{
                         </p>
                     </div>
                     </li>
-                    <li className={styles.aboutitem}><img src="assets/about/serverIcon.png" alt="server icon"></img>
+                    <li className={styles.aboutitem}><img src="/assets/about/serverIcon.png" alt="server icon"></img>
                     <div className={styles.abouitemtext}>
                         <h3>Backend Developer </h3>
                         <p>
@@ -23,7 +23,7 @@ export const About=()=>{
                         </p>
                     </div>
                     </li>
-                    <li className={styles.aboutitem}><img src="assets/about/uiIcon.png" alt="ui icon"></img>
+                    <li className={styles.aboutitem}><img src="/assets/about/uiIcon.png" alt="ui icon"></img>
                     <div className={styles.abouitemtext}>
                         <h3>UI Designer</h3>
                         <p>
@@ -31,7 +31,7 @@ export const About=()=>{
                         </p>
                     </div>
                     </li>
-                    <li className={styles.aboutitem}><img src="assets/about/testing icon.png" alt="testing icon"></img>
+                    <li className={styles.aboutitem}><img src="/assets/about/testing icon.png" alt="testing icon"></img>
                     <div className={styles.abouitemtext}>
                         <h3>Software and Web Tester </h3>
                         <p>
